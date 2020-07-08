@@ -15,9 +15,23 @@
     height: 100%;
     }
 .hero-background.is-transparent {
-    opacity: 0.3;
+    opacity: 1;
     }
 .button{
     opacity: 0.3;
+}
+
+.header-title {
+    color: white;
+    font-family: 'Galada', cursive;
+    font-size: 50px;
+    /* float: left; */
+}
+
+.header-subtitle {
+    color: white;
+    font-family: 'Anton', sans-serif;
+    font-size: large;
+    /* float:left; */
 }
       
