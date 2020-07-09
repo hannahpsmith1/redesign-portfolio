@@ -28,12 +28,13 @@
     /* float: left; */
 }
 
-.header-subtitle {
+.header-subtitle, .tabs {
     color: white;
     font-family: 'Anton', sans-serif;
     font-size: large;
     /* float:left; */
 }
+
       
 .tabs a {
     color: white;
@@ -44,9 +45,9 @@
     background-color: teal;
 }
 
-.column.is-mobile{
+/* .column.is-mobile{
     border: black;
     border-radius: 2px;
 
 
-}
+} */
