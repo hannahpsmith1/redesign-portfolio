@@ -22,6 +22,11 @@ https://hannahpsmith1.github.io/redesign-portfolio/
 
 ---
 
+## Demo Gif
+
+
+![Demo](https://user-images.githubusercontent.com/59800839/87007112-8f23a100-c176-11ea-9c37-cefeb7f13721.gif)
+
 ## Prerequisites
 * Access to the Internet
 * Supported Web Browser
