@@ -38,3 +38,8 @@
 .tabs a {
     color: white;
 }
+
+/* currently for hamberger menu */
+.is-active{
+    background-color: teal;
+}
