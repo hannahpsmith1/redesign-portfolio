@@ -8,6 +8,8 @@
     <link rel="stylesheet" href= "style.css">
     <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src = "script.js"></script>
     <title>Hannah Smith</title>
 </head>
 <body>
@@ -195,20 +197,20 @@
   
   <div class="tile is-ancestor">
     <div class="tile is-parent is-9">
-      <article class="tile is-child box">
-        <p class="title">Side column</p>
-        <p class="subtitle">With some content</p>
-        <div class="content">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
-        </div>
+      <article class="tile is-child notification is-primary">
+        <p class="title">Welcome to Projects</p>
+        <p class="subtitle">select a tile to get more information on a project</p>
+        <!-- <div class="content"> -->
+          <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p> -->
+        <!-- </div> -->
       </article>
     </div>
-    <div class="tile is-parent">
-      <article class="tile is-child box">
+    <div class="tile is-parent is-invisible" id="sidebar" >
+      <article class="tile is-child box ">
         <p class="title">Main column</p>
         <p class="subtitle">With some content</p>
         <div class="content">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+          <p></p>
         </div>
       </article>
     </div>
@@ -218,27 +220,33 @@
     <div class="tile is-vertical is-9">
       <div class="tile">
         <div class="tile is-parent">
-          <article class="tile is-child box">
-            <p class="title">Middle box</p>
-            <p class="subtitle">With an image</p>
+          <article class="tile is-child notification is-warning">
+            <p class="title">Spaceforceplus</p>
+            <!-- <p class="subtitle">With an image</p> -->
+            <!-- <figure class="imagePassword"> -->
+            <a> <img id="spaceforce" src="Images/Spaceforce.jpg"> </a>
+                <!-- id="spaceforce"> </a> -->
+                <!-- </figure> -->
           </article> 
         </div>
         <div class="tile is-parent">
-          <article class="tile is-child box">
-            <p class="title">Middle box</p>
-            <p class="subtitle">With an image</p>
-            <!-- <figure class="image is-4by3">
-              <img src="https://bulma.io/images/placeholders/640x480.png">
-            </figure> -->
+          <article class="tile is-child notification is-warning">
+            <p class="title">Password Generator</p>
+            <!-- <p class="subtitle">With an image</p> -->
+            <!-- <figure class="imagePassword"> -->
+                <a> <img  src="Images/Password.jpg"
+                    id="password"> </a>
+            <!-- </figure> -->
           </article>
         </div>
         <div class="tile is-parent">
-            <article class="tile is-child box">
-              <p class="title">End box</p>
-              <p class="subtitle">With an image</p>
-              <!-- <figure class="image is-4by3">
-                <img src="https://bulma.io/images/placeholders/640x480.png">
-              </figure> -->
+            <article class="tile is-child notification is-warning">
+              <p class="title">Weekday Scheduler</p>
+              <!-- <p class="subtitle">With an image</p> -->
+              <!-- <figure class="image is-4by3"> -->
+                <a> <img src="Images/Scheduler.jpg"
+                    id="scheduler"> </a>
+              <!-- </figure> -->
             </article>
           </div>
       </div>
