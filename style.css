@@ -45,6 +45,17 @@
     background-color: teal;
 }
 
+#aboutImg{
+    height: 200px;
+    width:200px;
+
+}
+
+.image.is-64x64 {
+    height: 200px;
+    width: 200px;
+}
+
 /* .column.is-mobile{
     border: black;
     border-radius: 2px;
