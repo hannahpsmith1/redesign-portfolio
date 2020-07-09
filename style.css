@@ -56,9 +56,14 @@
     width: 200px;
 }
 
-/* .column.is-mobile{
-    border: black;
-    border-radius: 2px;
+.notification.is-warning{
+    background-color: #fbc850;
+}
 
+.notification.is-primary{
+    background-color:#fa7d43;
+}
 
-} */
+.notification.is-danger{
+    background-color: #ca7e7e;
+}
