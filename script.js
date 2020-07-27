@@ -159,6 +159,56 @@ $(document).ready(function() {
         article.append(button)
         $("#sidebar").append(article)
 
-    })
+    }),
 //   });
+$("#media").click(function(){
+    console.log ("yes")
+    $("#sidebar").empty();
+    $("#sidebar").removeClass("is-invisible");
+    $("#sidebar").addClass("is-visible");
+    var article = $("<article>")
+    article.addClass("title is-child box notification is-danger")
+
+
+
+
+    var title= $("<h1>")
+    title.text("What to Stream")
+    title.addClass("title")
+    article.append(title)
+
+    var subtitle= $("<h2>")
+    subtitle.text("What to Stream")
+    subtitle.addClass("subtitle")
+    article.append(subtitle)
+
+    // var content= $("<div>")
+    // var par= $("<p>")
+    // par.text("lots of things to say")
+    // content.addClass("content")
+    // content.append(par)
+    // article.append(content)
+
+
+    var button = $("<button/>", {
+        text: "Deployed Link",
+        id: 'btn',
+        click: function (){
+            document.location.href='https://https://boiling-beach-01519.herokuapp.com/'
+        }
+    })
+
+    var buttontoo = $("<button/>", {
+        text: "View on Github",
+        id: 'btn',
+        click: function (){
+            document.location.href='https://github.com/hannahpsmith1/streaming-watchlist'
+        }
+    })
+
+    article.append(buttontoo)
+    article.append(button)
+    $("#sidebar").append(article)
+
+})
 });

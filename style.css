@@ -67,3 +67,7 @@
 .notification.is-danger{
     background-color: #ca7e7e;
 }
+
+.notification.is-yes{
+    background-color: Yellow;
+}
